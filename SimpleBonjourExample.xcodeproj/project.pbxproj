@@ -21,12 +21,29 @@
 			remoteGlobalIDString = EF6E74782D9DF3C0000952DD;
 			remoteInfo = SimpleBonjourExample;
 		};
+		EFF314922D9DF789007C74E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF6E74712D9DF3C0000952DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFF314812D9DF786007C74E4;
+			remoteInfo = iOSDiscoveryApp;
+		};
+		EFF3149C2D9DF789007C74E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF6E74712D9DF3C0000952DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFF314812D9DF786007C74E4;
+			remoteInfo = iOSDiscoveryApp;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		EF6E74792D9DF3C0000952DD /* SimpleBonjourExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleBonjourExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF6E748A2D9DF3C2000952DD /* SimpleBonjourExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleBonjourExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF6E74942D9DF3C2000952DD /* SimpleBonjourExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleBonjourExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFF314822D9DF786007C74E4 /* iOSDiscoveryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSDiscoveryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFF314912D9DF789007C74E4 /* iOSDiscoveryAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSDiscoveryAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFF3149B2D9DF789007C74E4 /* iOSDiscoveryAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSDiscoveryAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -35,14 +52,9 @@
 			path = SimpleBonjourExample;
 			sourceTree = "<group>";
 		};
-		EF6E748D2D9DF3C2000952DD /* SimpleBonjourExampleTests */ = {
+		EFF314832D9DF786007C74E4 /* iOSDiscoveryApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SimpleBonjourExampleTests;
-			sourceTree = "<group>";
-		};
-		EF6E74972D9DF3C2000952DD /* SimpleBonjourExampleUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SimpleBonjourExampleUITests;
+			path = iOSDiscoveryApp;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -69,6 +81,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EFF3147F2D9DF786007C74E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFF3148E2D9DF789007C74E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFF314982D9DF789007C74E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -76,8 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				EF6E747B2D9DF3C0000952DD /* SimpleBonjourExample */,
-				EF6E748D2D9DF3C2000952DD /* SimpleBonjourExampleTests */,
-				EF6E74972D9DF3C2000952DD /* SimpleBonjourExampleUITests */,
+				EFF314832D9DF786007C74E4 /* iOSDiscoveryApp */,
 				EF6E747A2D9DF3C0000952DD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,6 +120,9 @@
 				EF6E74792D9DF3C0000952DD /* SimpleBonjourExample.app */,
 				EF6E748A2D9DF3C2000952DD /* SimpleBonjourExampleTests.xctest */,
 				EF6E74942D9DF3C2000952DD /* SimpleBonjourExampleUITests.xctest */,
+				EFF314822D9DF786007C74E4 /* iOSDiscoveryApp.app */,
+				EFF314912D9DF789007C74E4 /* iOSDiscoveryAppTests.xctest */,
+				EFF3149B2D9DF789007C74E4 /* iOSDiscoveryAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -130,9 +165,6 @@
 			dependencies = (
 				EF6E748C2D9DF3C2000952DD /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				EF6E748D2D9DF3C2000952DD /* SimpleBonjourExampleTests */,
-			);
 			name = SimpleBonjourExampleTests;
 			packageProductDependencies = (
 			);
@@ -153,14 +185,73 @@
 			dependencies = (
 				EF6E74962D9DF3C2000952DD /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				EF6E74972D9DF3C2000952DD /* SimpleBonjourExampleUITests */,
-			);
 			name = SimpleBonjourExampleUITests;
 			packageProductDependencies = (
 			);
 			productName = SimpleBonjourExampleUITests;
 			productReference = EF6E74942D9DF3C2000952DD /* SimpleBonjourExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		EFF314812D9DF786007C74E4 /* iOSDiscoveryApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFF314A32D9DF789007C74E4 /* Build configuration list for PBXNativeTarget "iOSDiscoveryApp" */;
+			buildPhases = (
+				EFF3147E2D9DF786007C74E4 /* Sources */,
+				EFF3147F2D9DF786007C74E4 /* Frameworks */,
+				EFF314802D9DF786007C74E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				EFF314832D9DF786007C74E4 /* iOSDiscoveryApp */,
+			);
+			name = iOSDiscoveryApp;
+			packageProductDependencies = (
+			);
+			productName = iOSDiscoveryApp;
+			productReference = EFF314822D9DF786007C74E4 /* iOSDiscoveryApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFF314902D9DF789007C74E4 /* iOSDiscoveryAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFF314A62D9DF789007C74E4 /* Build configuration list for PBXNativeTarget "iOSDiscoveryAppTests" */;
+			buildPhases = (
+				EFF3148D2D9DF789007C74E4 /* Sources */,
+				EFF3148E2D9DF789007C74E4 /* Frameworks */,
+				EFF3148F2D9DF789007C74E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFF314932D9DF789007C74E4 /* PBXTargetDependency */,
+			);
+			name = iOSDiscoveryAppTests;
+			packageProductDependencies = (
+			);
+			productName = iOSDiscoveryAppTests;
+			productReference = EFF314912D9DF789007C74E4 /* iOSDiscoveryAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EFF3149A2D9DF789007C74E4 /* iOSDiscoveryAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFF314A92D9DF789007C74E4 /* Build configuration list for PBXNativeTarget "iOSDiscoveryAppUITests" */;
+			buildPhases = (
+				EFF314972D9DF789007C74E4 /* Sources */,
+				EFF314982D9DF789007C74E4 /* Frameworks */,
+				EFF314992D9DF789007C74E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFF3149D2D9DF789007C74E4 /* PBXTargetDependency */,
+			);
+			name = iOSDiscoveryAppUITests;
+			packageProductDependencies = (
+			);
+			productName = iOSDiscoveryAppUITests;
+			productReference = EFF3149B2D9DF789007C74E4 /* iOSDiscoveryAppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -184,6 +275,17 @@
 						CreatedOnToolsVersion = 16.2;
 						TestTargetID = EF6E74782D9DF3C0000952DD;
 					};
+					EFF314812D9DF786007C74E4 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					EFF314902D9DF789007C74E4 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = EFF314812D9DF786007C74E4;
+					};
+					EFF3149A2D9DF789007C74E4 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = EFF314812D9DF786007C74E4;
+					};
 				};
 			};
 			buildConfigurationList = EF6E74742D9DF3C0000952DD /* Build configuration list for PBXProject "SimpleBonjourExample" */;
@@ -203,6 +305,9 @@
 				EF6E74782D9DF3C0000952DD /* SimpleBonjourExample */,
 				EF6E74892D9DF3C2000952DD /* SimpleBonjourExampleTests */,
 				EF6E74932D9DF3C2000952DD /* SimpleBonjourExampleUITests */,
+				EFF314812D9DF786007C74E4 /* iOSDiscoveryApp */,
+				EFF314902D9DF789007C74E4 /* iOSDiscoveryAppTests */,
+				EFF3149A2D9DF789007C74E4 /* iOSDiscoveryAppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -223,6 +328,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		EF6E74922D9DF3C2000952DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFF314802D9DF786007C74E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFF3148F2D9DF789007C74E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFF314992D9DF789007C74E4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -253,6 +379,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EFF3147E2D9DF786007C74E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFF3148D2D9DF789007C74E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFF314972D9DF789007C74E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -265,6 +412,16 @@
 			isa = PBXTargetDependency;
 			target = EF6E74782D9DF3C0000952DD /* SimpleBonjourExample */;
 			targetProxy = EF6E74952D9DF3C2000952DD /* PBXContainerItemProxy */;
+		};
+		EFF314932D9DF789007C74E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFF314812D9DF786007C74E4 /* iOSDiscoveryApp */;
+			targetProxy = EFF314922D9DF789007C74E4 /* PBXContainerItemProxy */;
+		};
+		EFF3149D2D9DF789007C74E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFF314812D9DF786007C74E4 /* iOSDiscoveryApp */;
+			targetProxy = EFF3149C2D9DF789007C74E4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -414,10 +571,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.debug.SimpleBonjourExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
 				XROS_DEPLOYMENT_TARGET = 2.2;
 			};
 			name = Debug;
@@ -453,10 +610,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.debug.SimpleBonjourExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
 				XROS_DEPLOYMENT_TARGET = 2.2;
 			};
 			name = Release;
@@ -551,6 +708,157 @@
 			};
 			name = Release;
 		};
+		EFF314A42D9DF789007C74E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iOSDiscoveryApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 22AN94F85A;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.debug.iOSDiscoveryApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		EFF314A52D9DF789007C74E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iOSDiscoveryApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 22AN94F85A;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.debug.iOSDiscoveryApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFF314A72D9DF789007C74E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 22AN94F85A;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.debug.iOSDiscoveryAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSDiscoveryApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iOSDiscoveryApp";
+			};
+			name = Debug;
+		};
+		EFF314A82D9DF789007C74E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 22AN94F85A;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.debug.iOSDiscoveryAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSDiscoveryApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iOSDiscoveryApp";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFF314AA2D9DF789007C74E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 22AN94F85A;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.debug.iOSDiscoveryAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iOSDiscoveryApp;
+			};
+			name = Debug;
+		};
+		EFF314AB2D9DF789007C74E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 22AN94F85A;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.debug.iOSDiscoveryAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iOSDiscoveryApp;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -586,6 +894,33 @@
 			buildConfigurations = (
 				EF6E74A52D9DF3C3000952DD /* Debug */,
 				EF6E74A62D9DF3C3000952DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFF314A32D9DF789007C74E4 /* Build configuration list for PBXNativeTarget "iOSDiscoveryApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFF314A42D9DF789007C74E4 /* Debug */,
+				EFF314A52D9DF789007C74E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFF314A62D9DF789007C74E4 /* Build configuration list for PBXNativeTarget "iOSDiscoveryAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFF314A72D9DF789007C74E4 /* Debug */,
+				EFF314A82D9DF789007C74E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFF314A92D9DF789007C74E4 /* Build configuration list for PBXNativeTarget "iOSDiscoveryAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFF314AA2D9DF789007C74E4 /* Debug */,
+				EFF314AB2D9DF789007C74E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
